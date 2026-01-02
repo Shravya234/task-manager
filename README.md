@@ -31,20 +31,22 @@ A simple single-user Task Management System built using Laravel.This application
     copy .env.example to .env
 
 5. Update database details in .env file(laravel to task_manager):
-    DB_DATABASE=task_manager
+    DB_DATABASE=task_manager 
+
     DB_USERNAME=root
+
     DB_PASSWORD=
 
-6. Generate application key:
+7. Generate application key:
     php artisan key:generate
 
-7. Run migrations:
+8. Run migrations:
     php artisan migrate
 
-8. Start the server:
+9. Start the server:
     php artisan serve
 
-9. Open browser and visit:
+10. Open browser and visit:
     http://127.0.0.1:8000
 
 ## Author
