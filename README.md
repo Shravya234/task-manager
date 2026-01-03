@@ -19,7 +19,7 @@ A simple single-user Task Management System built using Laravel.This application
 
 ## Setup Instructions
 1. Clone the repository:
-    git clone https://github.com/your-username/task-manager.git
+    git clone https://github.com/Shravya234/task-manager.git
 
 2. Navigate to the project directory:
     cd task-manager
@@ -31,21 +31,33 @@ A simple single-user Task Management System built using Laravel.This application
     copy .env.example to .env
 
 5. Update database details in .env file(laravel to task_manager):
-    DB_DATABASE=task_manager
+    DB_DATABASE=task_manager 
+
     DB_USERNAME=root
+
     DB_PASSWORD=
 
-6. Generate application key:
+7. Generate application key:
     php artisan key:generate
 
-7. Run migrations:
+8. Run migrations:
     php artisan migrate
 
-8. Start the server:
+9. Start the server:
     php artisan serve
 
-9. Open browser and visit:
+10. Open browser and visit:
     http://127.0.0.1:8000
+
+## Screenshots
+### Task List Page
+![Task List](./screenshots/task-list.png)
+
+### Add Task Page
+![Add Task](screenshots/add-task.png)
+
+### Edit Task Page
+![Edit Task](screenshots/edit-task.png)
 
 ## Author
 Shravya
