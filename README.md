@@ -49,5 +49,15 @@ A simple single-user Task Management System built using Laravel.This application
 10. Open browser and visit:
     http://127.0.0.1:8000
 
+## Screenshots
+### Task List Page
+![Task List](screenshots/task-list.png)
+
+### Add Task Page
+![Add Task](screenshots/add-task.png)
+
+### Edit Task Page
+![Edit Task](screenshots/edit-task.png)
+
 ## Author
 Shravya
