@@ -51,7 +51,7 @@ A simple single-user Task Management System built using Laravel.This application
 
 ## Screenshots
 ### Task List Page
-![Task List](screenshots/task-list.png)
+![Task List](./screenshots/task-list.png)
 
 ### Add Task Page
 ![Add Task](screenshots/add-task.png)
